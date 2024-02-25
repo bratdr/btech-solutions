@@ -1,8 +1,6 @@
 import React from "react";
 import Play_Img from "../../assets/image/play.png";
 import Image from "next/image";
-import Kegiatan from "@/app/components/kegiatan";
-
 import Kegiatan1 from "../../assets/image/kegiatan/kegiatan_1.png";
 import Kegiatan2 from "../../assets/image/kegiatan/kegiatan_2.png";
 import Kegiatan3 from "../../assets/image/kegiatan/kegiatan_3.png";
