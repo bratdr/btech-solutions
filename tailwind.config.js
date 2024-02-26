@@ -18,6 +18,11 @@ module.exports = {
         heading: "-0.01em",
         paragraph: "0.02em",
       },
+      colors: {
+        primary: "#13194B",
+        secondary: "#656779",
+        tertiary: "#F9CD34",
+      },
     },
   },
   plugins: [],
