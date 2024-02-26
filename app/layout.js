@@ -2,6 +2,7 @@ import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import Navigation from "./components/navigation";
 
 import "./globals.css";
+import Footer from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
@@ -21,7 +22,8 @@ export default function RootLayout({ children }) {
       <body className={jakarta.className}>
         <Navigation />
         {children}
+        <Footer />
       </body>
-    </html> 
+    </html>
   );
 }
