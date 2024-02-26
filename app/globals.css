@@ -7,3 +7,7 @@
   display: none;
   scrollbar-width: none; /* Firefox */
 }
+
+html {
+  scroll-behavior: smooth !important;
+}
