@@ -1,19 +1,25 @@
-import React from "react";
-import Image from "next/image";
-import { AiOutlineMenu } from "react-icons/ai";
-import Link from "next/link";
+"use client";
+
+import React, { useState } from "react";
+
+import NavDesktop from "./desktop/DesktopNav.jsx";
+import NavMobile from "./mobile/MobileNav.jsx";
+import MobileDrawer from "./mobile/MobileDrawer.jsx";
 
 const Navigation = () => {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const handleDrawerToggle = () => {
+    setIsDrawerOpen(!isDrawerOpen);
+  };
+
   return (
     <>
-      <div className="fixed flex flex-row items-center justify-between px-6 w-full h-16 bg-white shadow-sm">
-        <Link href="/">
-          <Image src="/icon2.png" width={32} height={32} alt="B-Tech Icon" />
-        </Link>
-        <a>
-          <AiOutlineMenu size={24} />
-        </a>
-      </div>
+      {/* Destop Navbar */}
+      <NavDesktop />
+      {/* Mobile Navbar */}
+      <NavMobile onClick={handleDrawerToggle} />
+      <MobileDrawer isOpen={isDrawerOpen} onClose={handleDrawerToggle} />
     </>
   );
 };
