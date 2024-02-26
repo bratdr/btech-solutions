@@ -1,8 +1,8 @@
 import Hero from "./pages/hero";
 import Image from "next/image";
 import Hero_Img from "./assets/image/Hero2.png";
-import HeroCarousel from "./components/hero_carousel";
 import About from "./pages/about";
+import Berita from "./pages/berita";
 
 export default function Home() {
   return (
@@ -18,6 +18,7 @@ export default function Home() {
       </div>
       <Hero />
       <About />
+      <Berita />
     </main>
   );
 }
