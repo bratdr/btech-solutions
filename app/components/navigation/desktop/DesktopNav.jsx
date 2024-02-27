@@ -15,7 +15,7 @@ const NavDesktop = () => {
           className={
             currentPath === "/"
               ? "flex h-16 items-center justify-center border border-x-0 border-b-2 border-b-primary  font-semibold text-primary"
-              : "text-secondary font-medium"
+              : "font-medium text-secondary"
           }
         >
           Beranda
@@ -25,7 +25,7 @@ const NavDesktop = () => {
           className={
             currentPath === "/tentang-kami"
               ? "flex h-16 items-center justify-center border border-x-0 border-b-2 border-b-primary  font-semibold text-primary"
-              : "text-secondary font-medium"
+              : "font-medium text-secondary"
           }
         >
           Tentang Kami
@@ -35,7 +35,7 @@ const NavDesktop = () => {
           className={
             currentPath === "/galeri"
               ? "flex h-16 items-center justify-center border border-x-0 border-b-2 border-b-primary  font-semibold text-primary"
-              : "text-secondary font-medium"
+              : "font-medium text-secondary"
           }
         >
           Galeri
@@ -45,7 +45,7 @@ const NavDesktop = () => {
           className={
             currentPath === "/berita"
               ? "flex h-16 items-center justify-center border border-x-0 border-b-2 border-b-primary font-semibold text-primary"
-              : "text-secondary font-medium"
+              : "font-medium text-secondary"
           }
         >
           Berita
@@ -55,7 +55,7 @@ const NavDesktop = () => {
           className={
             currentPath === "/kontak"
               ? "flex h-16 items-center justify-center border border-x-0 border-b-2 border-b-primary font-semibold text-primary"
-              : "text-secondary font-medium"
+              : "font-medium text-secondary"
           }
         >
           Kontak
