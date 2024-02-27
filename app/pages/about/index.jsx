@@ -10,14 +10,14 @@ const About = () => {
   return (
     <>
       <div className="mt-14 bg-about px-6 py-14 text-white" id="about">
-        <div className="max-w-[325px]">
+        <div className="w-full">
           <h1 className="text-[32px] font-bold leading-[40px] tracking-tight ">
             Tentang Perusahaan
           </h1>
           <h3 className="mt-4 text-2xl font-bold leading-[40px] tracking-tight text-[#F9CD34]">
             B.Tech Solutions
           </h3>
-          <div className="mt-2 text-sm font-medium leading-loose">
+          <div className="mt-2 text-sm font-medium leading-[20pt]">
             <p>
               B.tech adalah perusahaan yang berjalan di bidang “
               <span className="font-bold text-[#F9CD34]">
@@ -39,11 +39,11 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="mt-10 max-w-[325px]">
+        <div className="mt-10">
           <h3 className="mt-4 text-2xl font-bold leading-[40px] tracking-tight text-[#F9CD34]">
             Dokumentasi Kegiatan
           </h3>
-          <div className="mt-2 text-sm font-medium leading-loose">
+          <div className="mt-2 text-sm font-medium leading-[20pt]">
             <p>
               Telusuri foto-foto yang menarik dan hidupkan kembali sorotan dari
               upaya kolektif kami dalam membangun persatuan, pemberdayaan, dan
