@@ -6,7 +6,7 @@ import Berita from "./pages/berita";
 
 export default function Home() {
   return (
-    <main className="w-full pt-16">
+    <main className="w-full pt-16 xl:px-32">
       <div className="bg-black xl:hidden">
         <Image
           src={Hero_Img}
