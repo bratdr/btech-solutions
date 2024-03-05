@@ -1,5 +1,6 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
-import Navigation from "./components/navigation";
+import Navigation from "@/app/components/navigation/Navbar";
 
 import "./globals.css";
 import Footer from "./components/footer";
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         <Navigation />
         {children}
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );
