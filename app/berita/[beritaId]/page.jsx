@@ -42,7 +42,7 @@ export default function BeritaList({ params }) {
           <h2>Title: {beritaData.title}</h2>
           <p>Description: {beritaData.body}</p>
           <br></br>
-          <Link href="http://localhost:3000/berita/">
+          <Link href="/berita">
             <ButtonKembali />
           </Link>
         </>
