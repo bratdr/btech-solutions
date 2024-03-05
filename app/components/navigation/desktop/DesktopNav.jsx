@@ -2,12 +2,13 @@ import React from "react";
 import Logo from "../ButtonLogo.jsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import ButtonNavbar from "../../button/ButtonNavbar.jsx";
 
 const NavDesktop = () => {
   const currentPath = usePathname();
 
   return (
-    <div className="fixed hidden h-16 w-full flex-row items-center justify-between bg-white px-6 shadow-sm xl:flex ">
+    <div className="fixed hidden h-16 w-full flex-row items-center justify-between bg-white px-6 shadow-sm xl:flex xl:px-32">
       <Logo />
       <div className="flex flex-row items-center justify-center gap-8">
         <Link
@@ -61,20 +62,7 @@ const NavDesktop = () => {
           Kontak
         </Link>
       </div>
-      <div className="flex items-center justify-center gap-4 font-semibold tracking-heading">
-        <Link
-          className="flex h-8 items-center justify-center rounded-md px-6 text-primary outline outline-1 outline-primary"
-          href="/masuk"
-        >
-          Masuk
-        </Link>
-        <Link
-          className="flex h-8 items-center justify-center rounded-md bg-primary px-6 text-white"
-          href="/daftar"
-        >
-          Daftar
-        </Link>
-      </div>
+      <ButtonNavbar />
     </div>
   );
 };
