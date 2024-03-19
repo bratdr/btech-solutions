@@ -13,13 +13,13 @@ const About = () => {
       <div className="mt-14 w-full bg-about px-6 py-14 text-white" id="about">
         <div className="flex flex-col xl:flex-row xl:items-center xl:justify-between">
           <div className="w-full xl:max-w-[535px]">
-            <h1 className="xl:text-h2_desktop text-[32px] font-bold leading-[40px] tracking-tight">
-              Tentang Perusahaan
+            <h1 className="text-[32px] font-bold leading-[40px] tracking-tight xl:text-h2_desktop">
+              Tentang Perusahaan Kita Bersama
             </h1>
             <h3 className="mt-4 text-2xl font-bold leading-[40px] tracking-tight text-[#F9CD34] xl:hidden">
               B.Tech Solutions
             </h3>
-            <div className="xl:text-body_desktop mt-2 text-sm font-medium leading-[20pt]">
+            <div className="mt-2 text-sm font-medium leading-[20pt] xl:text-body_desktop">
               <p>
                 B.tech adalah perusahaan yang berjalan di bidang “
                 <span className="font-bold text-[#F9CD34]">
@@ -43,10 +43,10 @@ const About = () => {
           </div>
         </div>
         <div className="mt-10">
-          <h3 className="xl:text-h3_desktop mt-4 text-2xl font-bold leading-[40px] tracking-tight text-[#F9CD34]">
+          <h3 className="mt-4 text-2xl font-bold leading-[40px] tracking-tight text-[#F9CD34] xl:text-h3_desktop">
             Dokumentasi Kegiatan
           </h3>
-          <div className="xl:text-body_desktop mt-2 text-sm font-medium leading-[20pt]">
+          <div className="mt-2 text-sm font-medium leading-[20pt] xl:text-body_desktop">
             <p className="xl:max-w-[535px]">
               Telusuri foto-foto yang menarik dan hidupkan kembali sorotan dari
               upaya kolektif kami dalam membangun persatuan, pemberdayaan, dan
